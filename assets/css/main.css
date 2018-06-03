@@ -1,6 +1,7 @@
 body, html {
   height: 100%;
-  overflow: hidden !important; }
+  overflow: hidden !important;
+  background-color: lightgray; }
 
 input {
   display: block;
@@ -42,7 +43,7 @@ label {
 .display {
   display: none;
   position: absolute;
-  top: 350px;
+  top: 300px;
   left: 15%;
   right: 15%;
   text-align: center; }
@@ -54,6 +55,7 @@ label {
   right: 15%; }
 
 .reCalculate {
+  margin-top: 20px !important;
   color: #fff;
   background-color: teal;
   font-size: 47px;
@@ -62,7 +64,7 @@ label {
   border-radius: 18px;
   margin: 0 auto; }
 
-.resultStyle1 {
+.resultStyle1, .jobAmount {
   color: green;
   font-weight: 900;
   font-size: 65px; }
@@ -76,5 +78,15 @@ label {
   color: blue;
   font-weight: 900;
   font-size: 65px; }
+
+.hourlyRate {
+  font-size: 68px;
+  height: 85px;
+  width: 125px; }
+
+.result {
+  background-color: red;
+  border-radius: 50px;
+  color: #fff; }
 
 /*# sourceMappingURL=main.css.map */

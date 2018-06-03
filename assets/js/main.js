@@ -22,6 +22,7 @@ $(".button").click(function(){
 	$(".dailyAmount").html(" $" + dailyAmount)
 	$(".weekPay").html(" $" + payout)
 	$(".tax").html(" $" + deductTax)
+	$(".jobAmount").html(" $" + weekAmount)
 //----------------------------------------------------------//
 	
 //----------------------------------------------------------//
