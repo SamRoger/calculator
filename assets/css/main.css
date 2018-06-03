@@ -1,0 +1,47 @@
+body, html {
+  height: 100%;
+  overflow: hidden; }
+
+input {
+  display: block;
+  font-size: 30px;
+  width: 13%;
+  height: 30px;
+  background-color: teal;
+  color: #fff;
+  color: transparent;
+  text-shadow: 0 0 0 #fff; }
+
+.button {
+  border-radius: 32px;
+  background-color: teal !important;
+  cursor: pointer;
+  padding: 32px;
+  font-size: 39px; }
+  .button:hover {
+    background-color: lightgray; }
+  .button:active {
+    background-color: red; }
+
+form, input, .button {
+  margin: 0 auto;
+  text-align: center; }
+
+label {
+  font-size: 85px; }
+
+.amount {
+  font-size: 68px;
+  height: 85px;
+  width: 225px; }
+
+.payout {
+  font-size: 68px;
+  height: 85px;
+  width: 125px; }
+
+.display {
+  display: none;
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */

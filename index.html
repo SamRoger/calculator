@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+<body>
+
+<div class="hideForm">
+	<form>
+		<label>Enter Job amount:</label>
+		<input maxlength="5" dir="rtl" class="amount" type="text" name="jobs">
+		<label>Enter Week Hours:</label>
+		<input  maxlength="2" dir="rtl" class="payout" type="text" name="payout"><br>
+		<label>Enter Hour Rate:</label>
+		<input  maxlength="2" dir="rtl" class="hourlyRate" type="text" name="hourlyRate"><br>
+			<div class="button">CALCULATE</div>
+	</form>
+</div>
+
+
+<div class="display">
+	<label>Weekly Gross Check:</label>
+		<br>
+			<span class="totalEarn"></span>
+				<br>
+					<label>Helper Week Payout:</label><br>
+						<div class="weekPay">$0</div>
+							<label>Approximate Taxes:</label>
+								<div class="tax"></div>
+									<label>Net Check: </label>
+										<div class="result">$0</div>
+											<label>Daily Job Amount:</label>
+												<div class="dailyAmount">$0</div>
+</div>
+
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
