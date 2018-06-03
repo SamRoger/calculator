@@ -1,19 +1,5 @@
 $("document").ready(function(){
 
-
-// function calculate(){
-// var amount = document.getElementsByClassName("amount")[0];
-// 	$("button").click(function(){
-// 		if(amount.value() === "integer"){
-// 			alert("yes!")
-// 		} else {
-// 			alert("no!")
-// 		}
-// 	})
-// }
-// calculate();
-
-
 function calculate(){
 $(".button").click(function(){
 	var amount = document.getElementsByClassName("amount")[0];
@@ -37,7 +23,7 @@ $(".button").click(function(){
 	$(".weekPay").html(" $" + payout)
 	$(".tax").html(" $" + deductTax)
 //----------------------------------------------------------//
-
+	
 //----------------------------------------------------------//
 	console.log("gross income", income)
 	console.log("payout", payout)
@@ -53,7 +39,9 @@ $(".button").on("click", function(){
 	$(".display").fadeIn(500)
 })
 
-
+$(".reCalculate").click(function(){
+	location.reload()
+})
 
 
 

@@ -1,11 +1,10 @@
 body, html {
   height: 100%;
-  overflow: hidden; }
+  overflow: hidden !important; }
 
 input {
   display: block;
   font-size: 30px;
-  width: 13%;
   height: 30px;
   background-color: teal;
   color: #fff;
@@ -28,7 +27,7 @@ form, input, .button {
   text-align: center; }
 
 label {
-  font-size: 85px; }
+  font-size: 70px; }
 
 .amount {
   font-size: 68px;
@@ -42,6 +41,40 @@ label {
 
 .display {
   display: none;
+  position: absolute;
+  top: 350px;
+  left: 15%;
+  right: 15%;
   text-align: center; }
+
+.hideForm {
+  position: absolute;
+  top: 350px;
+  left: 15%;
+  right: 15%; }
+
+.reCalculate {
+  color: #fff;
+  background-color: teal;
+  font-size: 47px;
+  padding: 20px;
+  width: 259px;
+  border-radius: 18px;
+  margin: 0 auto; }
+
+.resultStyle1 {
+  color: green;
+  font-weight: 900;
+  font-size: 65px; }
+
+.resultStyle2 {
+  color: red;
+  font-weight: 900;
+  font-size: 65px; }
+
+.resultStyle3 {
+  color: blue;
+  font-weight: 900;
+  font-size: 65px; }
 
 /*# sourceMappingURL=main.css.map */
